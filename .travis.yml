@@ -11,7 +11,9 @@ node_js:
 
 install:
 - npm install pm2 -g
-- npm install
+
 
 script:
-- cd wwww && npm test
+- cd wwww
+- npm install
+- npm test
